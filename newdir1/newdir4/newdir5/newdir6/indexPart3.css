@@ -1,0 +1,23 @@
+section:nth-child(1){
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-around;
+}
+section:nth-child(2){
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+body{
+	background:lightblue;
+}
+p:nth-child(1){
+	order:-1;
+}
+p:nth-child(2){
+	order:-2;
+}
+p:nth-child(3){
+	order:-3;
+}
+
